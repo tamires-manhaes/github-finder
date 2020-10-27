@@ -1,5 +1,9 @@
 ![](ezgif.com-gif-maker.gif)
 
+## Techs
+
+Nesse projeto, foi utilizado o Styled-Components para estilização. Typescript + ReactJS
+
 ## Available Scripts
 
 In the project directory, you can run:
