@@ -6,10 +6,15 @@ export const Container = styled.header`
   justify-content: space-between;
   flex-direction: row;
   padding: 10px 30px;
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
 `;
 
 export const LogoWrapper = styled.div`
-  img{
+  img {
     width: 150px;
     height: 25px;
   }

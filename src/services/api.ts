@@ -1,3 +1,7 @@
-export const api = {
-  baseUrl: 'https://api.github.com/users'
-}
+import axios from 'axios';
+
+const client = axios.create({
+  baseURL: 'https://api.github.com/users',
+});
+
+export default client;

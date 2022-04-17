@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+`;
 
 export const Box = styled.div`
-  width: 70vw;
-  min-height: 65vh;
+  width: 80vw;
+  min-height: 50vh;
   border-radius: 15px;
   border: 1px solid var(--blue-hover);
   margin: 40px auto;
@@ -28,7 +34,7 @@ export const ImgWrapper = styled.div`
   height: 200px;
   width: 30%;
 
-  img{
+  img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
@@ -39,10 +45,10 @@ export const ButtomWrapper = styled.button`
   padding: 10px;
   border-radius: 10px;
   border: 1px solid var(--blue-hover);
-  background: var(--white); 
+  background: var(--white);
   transition: background 350ms ease;
 
-  a{
+  a {
     color: var(--black);
     font-weight: 900;
   }
@@ -50,11 +56,11 @@ export const ButtomWrapper = styled.button`
   &:hover {
     background: var(--blue-hover);
   }
-
 `;
 
 export const AsideWrapper = styled.div`
   width: 70%;
+  padding-left: 20px;
 `;
 
 export const AsideTop = styled.div`
@@ -71,15 +77,14 @@ export const TitleSection = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 `;
 
 export const TitleWrapper = styled.div``;
 
 export const Title = styled.h1`
-    font-weight: 900;
-    font-size: 1.8rem;
-    margin-bottom: 5px;
+  font-weight: 900;
+  font-size: 1.8rem;
+  margin-bottom: 5px;
 `;
 
 export const Subtitle = styled.h3`
@@ -96,7 +101,7 @@ export const UserInfos = styled.ul`
   li {
     margin-right: 15px;
 
-    span{
+    span {
       font-weight: 700;
     }
   }
@@ -104,15 +109,15 @@ export const UserInfos = styled.ul`
 
 export const FollowsWrapper = styled.li`
   margin-right: 5px;
-`; 
+`;
 
 export const UserDescriptions = styled.ul`
   margin: 10px 0;
 
-  li{
+  li {
     margin: 10px 0;
 
-    a{
+    a {
       color: var(--black);
       transition: color 350ms ease;
 
